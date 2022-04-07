@@ -1,0 +1,106 @@
+body{
+    background-color: #2a2a2a;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 5px solid red;
+    margin-bottom: 5%;
+}
+
+main{
+    box-sizing: border-box;
+    border: 3px solid red;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.zdarzenie{
+    text-align: center;
+    color: red;
+    border: 3px solid red;
+    background-color: yellow;
+}
+
+#test{
+    box-sizing: border-box;
+    border: 6px solid red;
+    padding: 10%;
+    font-size: 120%;
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    margin-left: 70%;
+    margin-top: 15%;
+}
+
+.lista{
+    font-size: 50%;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    margin: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+
+.code_expl{
+    clear: both;
+    font-size: 60%;
+    box-sizing: border-box;
+    border: 3px solid red;
+    background-color: #1a1a1a;
+    padding: 0.5%;
+    margin-bottom: 5%;
+}
+
+.code{    
+    font-style: italic;
+    color: gray;
+    font-size: 80%;
+    background-color: #2a2a2a;
+}
+
+footer{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid red;
+    font-size: 50%;
+}
+
+.luty2007{
+    text-decoration: none;
+    color: red;
+}
+
+.zdarzenie :hover
+{
+    background-color: red;
+    color: yellow;
+    transition-duration: 0.2s;
+}
+
+.zdarzenie_tekst{
+    text-align: center;
+    color: red;
+    border: 3px solid red;
+    background-color: yellow;
+}
+
+.zdarzenie_tekst :hover
+{
+    background-color: pink;
+    color: black
+}
